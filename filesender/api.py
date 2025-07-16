@@ -467,6 +467,7 @@ class FileSenderClient:
                 "options": {
                     "email_download_complete": True,
                 },
++               'aup_checked':1,
                 **transfer_args,
             }
         )
